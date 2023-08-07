@@ -10,4 +10,10 @@ services:
       service: veld
     volumes:
       - ./veld_dummy_data_3_basex/db_data:/veld/storage
+    healthcheck:
+      test: ["CMD", "curl", "-f", "admin:admin@localhost:8984/rest"]
+      interval: 10s
+      timeout: 5s
+      retries: 1
+      start_period: 10s
 
