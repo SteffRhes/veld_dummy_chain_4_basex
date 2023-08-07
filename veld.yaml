@@ -1,0 +1,13 @@
+x-veld:
+  chain:
+    about:
+      description: "dummy veld for testing and showcasing"
+
+services:
+  veld:
+    extends:
+      file: ./veld_dummy_executable_4_basex/veld.yaml
+      service: veld
+    volumes:
+      - ./veld_dummy_data_3_basex/db_data:/veld/storage
+

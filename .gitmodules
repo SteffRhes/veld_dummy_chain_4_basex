@@ -1,0 +1,6 @@
+[submodule "veld_dummy_data_3_basex"]
+	path = veld_dummy_data_3_basex
+	url = git@github.com:steffres/veld_dummy_data_3_basex.git
+[submodule "veld_dummy_executable_4_basex"]
+	path = veld_dummy_executable_4_basex
+	url = git@github.com:steffres/veld_dummy_executable_4_basex.git
